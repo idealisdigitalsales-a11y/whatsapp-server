@@ -10,6 +10,9 @@ import QRCode from 'qrcode';
 
 const logger = pino({ level: 'info' });
 
+console.log('✅ Baileys imported successfully');
+console.log('makeWASocket type:', typeof makeWASocket);
+
 export class BaileysHandler {
   constructor(closerId, ws) {
     this.closerId = closerId;

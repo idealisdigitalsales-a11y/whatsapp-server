@@ -4,6 +4,9 @@ import { createServer } from 'http';
 import dotenv from 'dotenv';
 import { BaileysHandler } from './baileys-handler.js';
 
+console.log('✅ All imports successful');
+console.log('BaileysHandler:', typeof BaileysHandler);
+
 dotenv.config();
 
 const app = express();
